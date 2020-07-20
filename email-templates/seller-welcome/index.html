@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Bienvenido a Shop-Shop</title>
+    <style type="text/css">
+
+    /*Web Styles*/
+    body{
+      background: #ffffff;
+      font-family: 'Raleway', Arial, sans-serif;
+      font-weight: 400;
+      font-size: 16px;
+      color: rgb(88, 85, 85);
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+    }
+    .full-container{
+      width: 60%;
+      background-color: #ffffff;
+      min-width: 320px;
+    }
+    .header-container{
+      background-color: royalblue;
+      height: 117px;
+      display: flex;
+      align-items: center;
+      padding-left: 2%;
+    }
+    .header-title{
+      font-size: 36px;
+      font-weight: 'bold';
+      font-style: 'normal';
+      letter-spacing: -0.18px;
+      color: #ffffff;
+    }
+    .container-info{
+      background-color: #ffffff;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      padding-top: 50px;
+      padding-bottom: 50px;
+      padding-left: 10%;
+      padding-right: 10%;
+    }
+    .divider{
+      height: 1px;
+      border-width: 0;
+      color: #e0e0e0;
+      background-color: #e0e0e0;
+    }
+
+    /** Mobile landscape and Tablet*/
+    @media (min-width: 319px) and (max-width: 1024px) {
+      .full-container{
+      width: 90%;
+    }
+    }
+
+    /** Mobile potraid */
+    @media (min-width: 319px) and (max-width: 415px) {
+    .full-container{
+      width: 100%;
+    }
+    .header-container{
+      width: 100%;
+
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+    }
+    .container-info{
+      padding-left: 5%;
+      padding-right: 5%;
+    }
+}
+    </style>
+  </head>
+  <body>
+      <div class="full-container">
+        <!--header-->
+        <div class="header-container">
+          <h1 class="header-title">
+            Shop-Shop
+          </h1>
+        </div>
+        <!--Container info-->
+        <div class="container-info">
+          <!-- Check image -->
+          <svg
+            width="92"
+            height="92"
+            viewBox="0 0 92 92"
+            fill="none"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <path
+              d="M91.5203 45.7594C91.5203 71.0328 71.0328 91.5203 45.7594 91.5203C20.4875 91.5203 0 71.0328 0 45.7594C0 20.4875 20.4875 0 45.7594 0C71.0328 0 91.5203 20.4875 91.5203 45.7594Z"
+              fill="#457AFF"
+            />
+            <path
+              opacity="0.523693"
+              d="M45.7594 0C41.7922 0 37.9406 0.504688 34.2687 1.45469C53.9797 6.55156 68.5391 24.4547 68.5391 45.7594C68.5391 67.0641 53.9812 84.9672 34.2687 90.0641C37.9406 91.0141 41.7922 91.5188 45.7594 91.5188C71.0328 91.5188 91.5203 71.0312 91.5203 45.7594C91.5203 20.4859 71.0328 0 45.7594 0Z"
+              fill="#3A69E2"
+            />
+            <path
+              d="M35.1141 69.0109C33.4063 69.0109 31.7688 68.3328 30.5609 67.125L16.8922 53.4547C14.3766 50.9406 14.3766 46.8625 16.8922 44.3469C19.4063 41.8313 23.4844 41.8313 26 44.3469L35.1156 53.4625L60.4 28.1766C62.9156 25.6625 66.9938 25.6625 69.5078 28.1766C72.0234 30.6922 72.0234 34.7703 69.5078 37.2859L39.6688 67.125C38.4609 68.3328 36.8234 69.0109 35.1141 69.0109Z"
+              fill="white"
+            />
+          </svg>
+          <!--Welcome text expressive-->
+          <h1>Bienvenido !!</h1>
+          <!--Primary text info-->
+          <p>
+            Hola <span style="font-weight: bold;">Pablo Luis</span>. </br></br>Nos complace darte las gracias y la bienvenida como vendedor a nuestra plataforma, estás a muy poco de comenzar a brindar un mejor servicio a tus clientes.
+          </p>
+
+          <!--List of information -->
+          <div style="width: 100%;"></br>
+            <h3>Lo que te brinda Shop Shop a ti y a tu negocio:</h3></br>
+            <ul>
+              <li>
+                Creación de un área de despacho que se ajuste a tu crecimiento.
+              </li></br></br>
+              <li>
+                Creación de un área de despacho que se ajuste a tu crecimiento.
+              </li></br></br>
+              <li>
+                Aumenta tu clientela. SHOP-SHOP es un canal de publicación y ventas que tienes disponible para llegar a más clientes.
+              </li></br></br>
+              <li>
+                Comunicación efectiva. Existe la posibilidad de estar conectado con tus clientes.
+              </li></br></br>
+              <li>
+                Tienes la posibilidad de exponer y quitar productos de forma sencilla.
+              </li></br></br>
+            </ul>
+          </div>
+          <div style="width: 100%;">
+
+            <p>
+              Estamos listos <span style="font-weight: bold;">Pablo Luis</span>.</br></br>
+              Es hora de publicar tus productos y/o servicios para comenzar a brindar un servicio de excelencia a tus clientes.
+            </p>
+            <!--Line divider-->
+            <hr class="divider"/></br></br>
+            <p>
+              <span style="font-weight: bold;">* Informaci&oacute;n importate</span>.</br></br>
+              Este correo es generado autom&aacute;ticamente y envíado a <span style="font-weight: bold;">pab***.ab***@gmail.com</span> por el equipo de <span style="font-weight: bold;">SHOP-SHOP</span>. No responda este correo ya que esta cuenta no está siendo monitoreada y no recibirá respuesta. Si tiene dudas vaya en la aplicación a Menú/Ayuda/Preguntas frecuentes
+            </p>
+          </div>
+        </div>
+    </div>
+  </body>
+</html>
